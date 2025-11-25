@@ -143,31 +143,82 @@
 
       <!-- About -->
       <section id="about" class="max-w-7xl mx-auto px-6 py-20">
-        <div class="bg-slate-800/50 backdrop-blur-xl rounded-3xl p-10 border border-white/10">
-          <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">About Me</h2>
-          <p class="text-lg text-slate-300 leading-relaxed mb-10">
-            I'm a dedicated Full-Stack Developer with hands-on experience in building production-ready web applications. Currently interning at <strong>The NGO Forum on Cambodia</strong>, where I'm developing automation tools used by real organizations.
-          </p>
-
-          <div class="grid md:grid-cols-2 gap-10">
-            <div>
-              <h3 class="text-xl font-bold text-cyan-400 mb-5">Experience</h3>
-              <ul class="space-y-4 text-slate-300">
-                <li class="flex gap-3"><span class="text-indigo-400">→</span> <strong>IT Intern (Full-Stack)</strong> — The NGO Forum on Cambodia (Aug 2025 – Feb 2026)</li>
-                <li class="flex gap-3"><span class="text-indigo-400">→</span> Scrum Master & Developer — POS System (Virtual Company)</li>
-                <li class="flex gap-3"><span class="text-indigo-400">→</span> Team Lead — Multiple front-end & Python projects</li>
-              </ul>
+        <div class="bg-slate-800/50 backdrop-blur-xl rounded-3xl p-10 lg:p-16 border border-white/10 overflow-hidden">
+          <div class="grid lg:grid-cols-5 gap-12 items-center">
+            <!-- Photo - Left side -->
+            <div class="lg:col-span-2">
+              <div class="relative group">
+                <!-- Glow effect -->
+                <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-3xl blur-xl opacity-40 group-hover:opacity-60 transition duration-700"></div>
+                
+                <!-- Actual image -->
+                <img 
+                  src="./assets/images/chhea-chhouy.jpg" 
+                  alt="Chhea Chhouy" 
+                  class="relative rounded-3xl w-full object-cover shadow-2xl border-4 border-white/10 
+                        transform group-hover:scale-105 transition duration-700"
+                >
+              </div>
             </div>
-            <div>
-              <h3 class="text-xl font-bold text-cyan-400 mb-5">Education</h3>
-              <div class="space-y-5 text-slate-300">
+
+            <!-- Content - Right side -->
+            <div class="lg:col-span-3">
+              <h2 class="text-4xl lg:text-5xl font-bold mb-8 bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+                About Me
+              </h2>
+
+              <p class="text-lg text-slate-300 leading-relaxed mb-5">
+                
+                I'm Chhea Chhouy, a second-year Web Programming student at Passerelles Numériques Cambodia, pursuing an Associate Degree. Born on April 12, 2004, in Siem Reap, Cambodia, I have developed strong technical skills and leadership experience.
+              </p>
+              <p class="text-lg text-slate-300 leading-relaxed mb-10">
+                I'm a dedicated Full-Stack Developer with hands-on experience in building production-ready web applications. 
+                Currently interning at <strong>The NGO Forum on Cambodia</strong>, where I'm developing automation tools used by real organizations.
+              </p>
+
+              <div class="grid md:grid-cols-2 gap-10">
                 <div>
-                  <div class="font-bold text-white">Associate Degree in Web Programming</div>
-                  <div>Passerelles Numériques Cambodia • 2024 – Present</div>
+                  <h3 class="text-2xl font-bold text-cyan-400 mb-6 flex items-center gap-3">
+                    <span class="w-12 h-1 bg-cyan-400 rounded-full"></span>
+                    Experience
+                  </h3>
+                  <ul class="space-y-4 text-slate-300">
+                    <li class="flex gap-3 leading-relaxed">
+                      <span class="text-indigo-400 mt-1.5">→</span>
+                      <div>
+                        <strong>IT Intern (Full-Stack)</strong><br>
+                        <span class="text-slate-400 text-sm">The NGO Forum on Cambodia (Aug 2025 – Feb 2026)</span>
+                      </div>
+                    </li>
+                    <li class="flex gap-3 leading-relaxed">
+                      <span class="text-indigo-400 mt-1.5">→</span>
+                      <div>
+                        <strong>Scrum Master & Developer</strong><br>
+                        <span class="text-slate-400 text-sm">POS System — Virtual Company</span>
+                      </div>
+                    </li>
+                    <li class="flex gap-3 leading-relaxed">
+                      <span class="text-indigo-400 mt-1.5">→</span>
+                      <div><strong>Team Lead</strong> — Multiple front-end & Python projects</div>
+                    </li>
+                  </ul>
                 </div>
+
                 <div>
-                  <div class="font-bold text-white">High School Diploma (Bac II)</div>
-                  <div>Pouk High School • 2023</div>
+                  <h3 class="text-2xl font-bold text-cyan-400 mb-6 flex items-center gap-3">
+                    <span class="w-12 h-1 bg-cyan-400 rounded-full"></span>
+                    Education
+                  </h3>
+                  <div class="space-y-6 text-slate-300">
+                    <div>
+                      <div class="font-bold text-white text-lg">Associate Degree in Web Programming</div>
+                      <div class="text-slate-400">Passerelles Numériques Cambodia • 2024 – Present</div>
+                    </div>
+                    <div>
+                      <div class="font-bold text-white text-lg">High School Diploma (Bac II)</div>
+                      <div class="text-slate-400">Pouk High School • 2023</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
