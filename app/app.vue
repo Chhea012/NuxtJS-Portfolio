@@ -186,7 +186,7 @@
                     <li class="flex gap-3 leading-relaxed">
                       <span class="text-indigo-400 mt-1.5">→</span>
                       <div>
-                        <strong>IT Intern (Full-Stack)</strong><br>
+                        <strong>IT Programming Intern (Full-Stack)</strong><br>
                         <span class="text-slate-400 text-sm">The NGO Forum on Cambodia (Aug 2025 – Feb 2026)</span>
                       </div>
                     </li>
